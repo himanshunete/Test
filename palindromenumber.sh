@@ -4,6 +4,9 @@
 
 
 read num
+
+Function()
+{
 i=$(($num%10))
 j=$(($num/10))
 k=$(($j%10))
@@ -25,3 +28,6 @@ echo its palindrome Number
 else
 echo its not 
 fi
+}
+
+Function $num $Number2
